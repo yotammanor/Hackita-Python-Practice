@@ -1,0 +1,17 @@
+application: hackita2013yotam-practice1
+runtime: python27
+api_version: 1
+threadsafe: true
+version: 1
+
+handlers:
+- url: /.*
+  script: countries_of_the_world.application
+#  script: main.application
+
+libraries:
+- name: numpy
+  version: "1.6.1"
+
+
+
