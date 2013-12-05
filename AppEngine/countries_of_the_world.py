@@ -104,4 +104,5 @@ def display_country_info(country_name):
 
 application = default_app()
 
-#run(host='localhost', port=8080, debug=True, reloader=True)
+if __name__ == "__main__":
+    run(host='localhost', port=8080, debug=True, reloader=True)
